@@ -13,7 +13,7 @@ int main1()
     
     
    /*
-   Due January 29, 2025            First C++ exercise              File Name: FirstExercise.cpp
+    First C++ exercise     Due January 29, 2025        File Name:FirstExercise.cpp
    
    */
 }

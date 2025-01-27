@@ -5,8 +5,25 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Joseph Lodico!\n";
+    
+
+    
+    
+    
+   /*
+   Due January 29, 2025            First C++ exercise              File Name: FirstExercise.cpp
+   
+   */
 }
+
+
+
+
+
+
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

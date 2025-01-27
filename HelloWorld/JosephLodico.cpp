@@ -3,9 +3,10 @@
 
 #include <iostream>
 
-int main()
+int main1()
 {
-    std::cout << "Joseph Lodico!\n"; 
+    std::cout << "Joseph Lodico!\n";
+    return 0;
     
 
     

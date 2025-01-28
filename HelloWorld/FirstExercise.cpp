@@ -16,11 +16,23 @@ public:
     UserAccount(int id, const string& username, const string& pwd)
         : ID(id), userName(username), password(pwd) {}
 
+    // The Login method   / Functions:
+    bool Login(const string& enteredUserName, const string& enteredPassword)
+        const
+    {
+        return (enteredUserName == userName && enteredPassword == password);
+    }
+    
+    //this is the Getter for ID
+    int getID() const {
+        return ID;
+    }
+
 };
 
 int main()
 {
-    std::cout << "First c++ Exersice\n";
+    cout << "Welcome, This First c++ Exersice\n";
     return 0;
 
 

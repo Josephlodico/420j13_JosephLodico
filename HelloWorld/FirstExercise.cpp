@@ -32,7 +32,16 @@ public:
 
 int main()
 {
-    cout << "Welcome, This First c++ Exersice\n";
+    cout << "Welcome, This is the First c++ Exersice\n\n";
+    //Input for account creation
+    int id;
+    string username, password;
+
+    cout << "Create your Account:\n";
+    cout << "Enter Account ID:";
+    cin >> id;
+    cin.ignore(); //this clears a newline character from the input buffer
+
     return 0;
 
 

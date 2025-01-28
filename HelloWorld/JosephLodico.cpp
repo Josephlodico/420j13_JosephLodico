@@ -5,18 +5,25 @@
 
 int main1()
 {
-    std::cout << "Joseph Lodico!\n";
+    std::cout << "This is joseph Lodico's Assignment Stats\n";
     return 0;
     
 
    
     
     
-   /*
-    First C++ exercise     Due January 29, 2025        File Name:FirstExercise.cpp
+   /*    ASSIGNMENT                  DATE                           FILES                         STATUS
+      First C++ exercise      Due January 29, 2025        File Name:FirstExercise.cpp              Done
+      Pointers Assignment     Due february 3, 2025        File Name:                              Working on
    
    */
 }
+
+
+
+
+
+
 
 
 

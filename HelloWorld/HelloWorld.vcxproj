@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="JosephLodico.cpp" />
     <ClCompile Include="FirstExercise.cpp" />
+    <ClCompile Include="Pointers Assignment.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

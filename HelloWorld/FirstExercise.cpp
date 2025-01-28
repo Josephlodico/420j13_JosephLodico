@@ -37,10 +37,24 @@ int main()
     int id;
     string username, password;
 
-    cout << "Create your Account:\n";
+    cout << "Create your Account\n";
     cout << "Enter Account ID:";
     cin >> id;
     cin.ignore(); //this clears a newline character from the input buffer
+
+    //makes you enter your Username
+    cout << "Enter Username: ";
+    getline(cin, username);
+
+    //makes you enter your prefered password
+    cout << "Enter Password:";
+    getline(cin, password);
+
+    
+
+
+
+
 
     return 0;
 

@@ -50,12 +50,34 @@ int main()
     cout << "Enter Password:";
     getline(cin, password);
 
-    
+    //Create UserAccount object
+    UserAccount user(id, username, password);
 
+    //Login prompt
+    cout << "\nLogin:\n";
 
+    while (true) 
+    {
+        string enteredUsername, enteredPassword;
 
+        cout << "Enter Username:";
+        getline(cin, enteredUsername);
 
+        cout << "Enter Password:";
+        getline(cin, enteredPassword);
 
+        if (user.Login(enteredUsername, enteredPassword))
+        {
+            cout << "Login successful!!\n";
+            cout << "Account ID:" << user.getID() << "\n";
+            break;
+        }
+        else
+        {
+            cout << "Invalid username or password. try again.\n";
+
+        }
+    }
     return 0;
 
 
